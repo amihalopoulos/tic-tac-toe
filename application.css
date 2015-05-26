@@ -1,0 +1,26 @@
+#board {
+  border: 1px solid black;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.col1, .col2 {
+  border-right: 1px solid black;
+}
+
+#row1, #row2 {
+  border-bottom: 1px solid black;
+}
+
+.row {
+  height: 100px;
+}
